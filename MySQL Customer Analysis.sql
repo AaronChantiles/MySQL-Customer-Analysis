@@ -174,7 +174,7 @@ ORDER BY stores.store_id ASC;
 A query that will retrieve, for each store, the staff member(s) that assisted with the 
 highest number of orders. The fields to be returned are store_id, store state, staff 
 member info (ID, last name, first name) and total number of sales by that staff member.
-Use a double-nested query.
+Use a double-nested query. (Most complex query of the project)
 */
 SELECT
   stores.store_id,
