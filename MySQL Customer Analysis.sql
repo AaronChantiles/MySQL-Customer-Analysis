@@ -1,5 +1,5 @@
 /*
-1. A query that retrieves the distinct first purchase dates (only dates) of all customers
+A query that retrieves the distinct first purchase dates (only dates) of all customers
 that found reviews to be heavily or moderately reliable, and who first purchased
 from this company during year 2023, sorted in descending order by date. You are
 required to use ranges when writing some of the conditions. NOTE: The answer for
@@ -105,8 +105,7 @@ the order was placed before 2017 (2016 or earlier). Return the results sorted in
 ascending order by order IDs. You are required to use the set inclusion to condition on
 the customer city and store state.
 */
-SELECT DISTINCT orders.order_id, customers.customer_id, customers.first_name,
-customers.last_name
+SELECT DISTINCT orders.order_id, customers.customer_id, customers.first_name, customers.last_name
 FROM orders JOIN customers
   ON orders.customer_id = customers.customer_id
     JOIN stores
@@ -122,8 +121,7 @@ product brand names for products that were ordered by customers between 2017-01-
 and 2017-11-20. Return the results sorted in ascending order by product IDs. You are
 required to use ranges when writing some of the conditions.
 */
-SELECT DISTINCT products.product_id, products.product_name, products.list_price,
-brands.brand_name
+SELECT DISTINCT products.product_id, products.product_name, products.list_price, brands.brand_name
 FROM brands JOIN products
   ON products.brand_id = brands.brand_id
   JOIN order_items ON products.product_id = order_items.product_id
