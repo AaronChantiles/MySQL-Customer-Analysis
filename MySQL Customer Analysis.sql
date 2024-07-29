@@ -2,11 +2,7 @@
 A query that retrieves the distinct first purchase dates (only dates) of all customers
 that found reviews to be heavily or moderately reliable, and who first purchased
 from this company during year 2023, sorted in descending order by date. You are
-required to use ranges when writing some of the conditions. NOTE: The answer for
-this query is already included in “GA2_S2024_AnswerSheet.docx” as a sample
-answer. You do not have to do anything for this query. Use this format for all the
-other parts of the assignment (i.e., include text of query and screenshot after running
-the query – the name of your database should be visible). 
+required to use ranges when writing some of the conditions. 
 */
 SELECT DISTINCT Date_First_Purchase
 FROM customer_survey
