@@ -1,6 +1,6 @@
 # MySQL-Customer-Analysis
 
-![image](https://github.com/user-attachments/assets/4920eb81-4fb3-4fd2-afbb-cf6cc7f912d9)
+In this project, we perform a customer purchase behavior analysis to better understand how customers engage with the different areas of the website or app. We combine multiple databases to try to find key insights about how to better serve customers and potentially also dive into new types of service offerings (spillover effects).
 
 Description of the data:
 File “GA2_problem1_tables.sql” contains all the data aggregated in an un-normalized single table
